@@ -28,7 +28,6 @@ let firstName = 'Pavlo'
 let middleName = 'Petrovych'
 let lastName = 'Semehen'
 let person = `${firstName} ${middleName} ${lastName}`
-console.log(person)
 let a = 100
 console.log(typeof a)
 let b ='100'
@@ -39,5 +38,5 @@ let name = prompt('Enter your name')
 console.log(name)
 let middlename = prompt('Enter your middle name')
 console.log(middlename)
-let age = prompt('Enter your age')
+let age = +prompt('Enter your age')
 console.log(age)
